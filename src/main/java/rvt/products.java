@@ -1,8 +1,7 @@
 package rvt;
+import java.util.Scanner;
 
-import java.util.scanner;
-
-public class Main
+public class products
 {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
@@ -11,13 +10,12 @@ public class Main
         System.out.println("Enter the product price:");
         String productPrice = scanner.nextLine();
         System.out.println("Enter the product quantity:");
-
         String productQuantity = scanner.nextLine();
 
         System.out.println("Product name: " + productName);
         System.out.println("Product price: " + productPrice);
         System.out.println("Product quantity: " + productQuantity);
 
-
+        scanner.close();
     }
 }

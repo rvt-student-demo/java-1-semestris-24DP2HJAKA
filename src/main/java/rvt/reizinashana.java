@@ -1,3 +1,5 @@
+package rvt;
+
 public class reizinashana {
 	public static void main(String[] args) {
 		int first = 2;
