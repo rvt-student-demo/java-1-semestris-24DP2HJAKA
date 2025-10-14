@@ -1,6 +1,6 @@
 package rvt;
 
-public class GradesAndPoints 
+public class gradesandpoints 
 {
 
     public static String getGrade(int points) {
