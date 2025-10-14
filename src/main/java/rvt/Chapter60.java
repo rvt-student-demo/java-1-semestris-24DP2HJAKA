@@ -1,4 +1,6 @@
-public class Chapter60 {
+package rvt;
+
+public class Chapter60{
 
     public static void ex4(String[] args) {
         int[] valA = { 13, -22, 82, 17 };
